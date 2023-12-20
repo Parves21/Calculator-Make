@@ -7,10 +7,12 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #333;
+    gap: 20px;
 }
 
 .calculator {
@@ -85,11 +87,11 @@ body {
 
 .calculator .buttons span#plus{
     grid-row: span 2;
-    background: #31a935;
+    background: #10862c;
     color: #fff;
 }
 
 .calculator .buttons span#equal{
-    background: #2196f3;
+    background: #14a1a3;
     color: #fff;
 }
